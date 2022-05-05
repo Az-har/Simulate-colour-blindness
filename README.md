@@ -7,7 +7,18 @@ This Script simulates images based on how people with colorblindness would perce
 
 ## Installation
 
+### Downloading the script
+
+Go to the directory of your choice in terminal, and run the command below.
+```shell
+git clone https://github.com/Az-har/Simulate-colour-blindness.git
+```
+### Installing dependencies
+
+To run this script, you need to install three libraries for python. Use pipto download PIL, Numpy and OpenCV.
+```shell
 sudo pip install Pillow numpy opencv-python
+```
 
 ### Verifying the installation
 
@@ -22,3 +33,5 @@ cd <dir where scripts are downloaded>/Simulate-Correct-Colorblindness
 # Now run the examples script.
 python run_examples.py
 ```
+This will run all the available algorithms on the example image,
+and save the processed images in the *Examples_check/* directory,
